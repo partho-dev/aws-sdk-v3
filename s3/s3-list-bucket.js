@@ -1,6 +1,6 @@
 // require("dotenv").config()
 const {S3Client, ListBucketsCommand} = require("@aws-sdk/client-s3")
-const config = require("./utils/config")
+const config = require("../utils/config")
 // const config = {
 //     region: process.env.REGION,
 //     credentials : {
@@ -19,3 +19,5 @@ const listBucket = async () =>{
 }
 
 listBucket()
+
+console.log(process.env.AWS_SEC_KEY)
