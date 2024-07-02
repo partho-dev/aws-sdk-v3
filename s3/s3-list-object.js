@@ -16,4 +16,4 @@ try {
 }
 }
 
-listObject("config-bucket-081476396294")
+listObject("partho-private")
